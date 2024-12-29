@@ -11,8 +11,8 @@ require './src/PespProjection.php';
 // echo "</pre>";
  
 $responsabl = new ResponsableProjections('abdel ilh', 'jorf', '19', '07007087', 'abdo/esse');
-$projection = $responsabl->ajoterProjection('10:00 pm', 'Khawarizmi', '2010-07-16');
+$projection = $responsabl->ajoterProjection('10:00 pm', '2010-07-16', 'Khawarizmi');
 echo "<pre>";
 
-echo $projection;
+// echo $projection;
 echo "</pre>";

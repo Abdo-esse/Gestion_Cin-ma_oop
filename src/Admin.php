@@ -48,9 +48,5 @@ public function update($titre, $genre, $duree, $dateSortie, $realisateur, $distr
 }
 
 
-     public function database()
-     {
-       return new PDO('mysql:host=localhost;dbname=Gestion_Cinéma', "root", "");
-   
-     }
+     
 }

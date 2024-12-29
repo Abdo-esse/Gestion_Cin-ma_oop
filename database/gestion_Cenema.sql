@@ -21,5 +21,11 @@ CREATE DATABASE Gestion_Cinéma;
     realisateur VARCHAR(50),
     distribution VARCHAR(50)
  );
+ create table projections(
+   id int primary key AUTO_INCREMENT,
+    horaire VARCHAR(50),
+    dateProj date,
+    salle VARCHAR(50)
+ );
 
-
+insert into projections (horaire,dateProj,salle) values ()

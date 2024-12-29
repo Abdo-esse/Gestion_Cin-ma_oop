@@ -48,6 +48,11 @@
         $this->pasword=$pasword;
     }
     
+    public function database()
+     {
+       return new PDO('mysql:host=localhost;dbname=Gestion_Cinéma', "root", "");
+   
+     }
     
 
 }
