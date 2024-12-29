@@ -16,7 +16,21 @@
         $this->tele=$tele;
         $this->pasword=$pasword;
     }
-    
+     public function getFullName(){
+        return $this->fullName;
+     }
+     public function getCity(){
+        return $this->city;
+     }
+     public function getAge(){
+        return $this->age;
+     }
+     public function getTele(){
+        return $this->tele;
+     }
+     public function getPasword(){
+        return $this->pasword;
+     }
 
     public function setFullName($fullName){
         $this->fullName=$fullName;
