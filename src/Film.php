@@ -45,6 +45,25 @@ class Film
     return $this->distribution;
 }
 public function steId($id){
-
+    $this->id=$id;
+}
+public function steId($titre){
+    $this->titre=$titre;
+}
+public function steId($genre){
+    $this->genre=$genre;
+}
+public function steId($duree){
+    $this->duree=$duree;
+}
+public function steId($dateSortie){
+     $this->dateSortie=$dateSortie;
+}
+public function steId($realisateur){
+    $this->realisateur=$realisateur;
+}
+    
+public function steId($distribution){
+    $this->distribution=$distribution;
 }
 }
