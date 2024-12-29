@@ -22,5 +22,4 @@ CREATE DATABASE Gestion_Cinéma;
     distribution VARCHAR(50)
  );
 
-update Films
-set titre=''
+
