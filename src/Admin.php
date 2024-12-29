@@ -28,9 +28,24 @@ class Admin extends Persson
     $stmt = $pdo->prepare($sql);
     $stmt->execute();
     return "la suprussion a ete bien";
+}
 
+public function update($titre, $genre, $duree, $dateSortie, $realisateur, $distribution,$id)
+{
+    $pdo = $this->database();
+    $sql = "UPDATE Films 
+            SET titre = '$titre', 
+                genre = '$genre', 
+                duree = '$duree', 
+                dateSortie = '$dateSortie', 
+                realisateur = '$realisateur', 
+                distribution = '$distribution' 
+            WHERE id = '$id'";
+    
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute();
 
-  }
+}
 
 
      public function database()

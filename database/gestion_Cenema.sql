@@ -22,6 +22,5 @@ CREATE DATABASE Gestion_Cinéma;
     distribution VARCHAR(50)
  );
 
- INSERT into films VALUES(NULL,'abdel ilh','jorf','19','07007087','abdo/esse','gfgfgfg');
- select * FROM;
- DELETE from films WHERE id=''
+update Films
+set titre=''
