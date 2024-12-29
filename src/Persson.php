@@ -1,12 +1,12 @@
 <?php 
- class Persson
+ class Persson 
 {
-    private $id;
-    private $fullName;
-    private $city
-    private  $age;
-    private $tele ;
-    private $pasword;
+    protected $id;
+    protected $fullName;
+    protected $city;
+    protected  $age;
+    protected $tele ;
+    protected $pasword;
 
     public function __construct($fullName,$city,$age,$tele,$pasword)
     {
@@ -48,6 +48,6 @@
         $this->pasword=$pasword;
     }
     
-    public  function connexion();
+    
 
 }

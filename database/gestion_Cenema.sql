@@ -14,9 +14,10 @@ CREATE DATABASE Gestion_Cinéma;
 
  CREATE Table films(
      id int primary key AUTO_INCREMENT,
-    fullName VARCHAR(50),
-    city VARCHAR(50),
-    age int ,
-    tele VARCHAR(50),
-    pasword VARCHAR(50)
+    titre VARCHAR(50),
+    genre VARCHAR(50),
+    duree DATETIME,
+    dateSortie date,
+    realisateur VARCHAR(50),
+    distribution VARCHAR(50)
  )
