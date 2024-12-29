@@ -47,6 +47,7 @@
     public function setPasword($pasword){
         $this->pasword=$pasword;
     }
-
+    
+    public  function connexion();
 
 }
